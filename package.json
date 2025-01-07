@@ -1,7 +1,11 @@
 {
-    "name": "sample-obsidian-theme",
-    "version": "1.0.0",
-	"scripts": {
-		"version": "node version-bump.mjs && git add manifest.json versions.json"
-	}
+  "name": "sample-obsidian-theme",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "version": "node version-bump.mjs && git add manifest.json versions.json"
+  }
 }
